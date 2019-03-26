@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+p{
+	margin:0;
+}
+
 .form-hidden{
 	display:none;
 }
@@ -130,22 +134,19 @@ a {
   background: url("../img/icon-3.svg") no-repeat center top;
 }
 
-.features {
-  text-align: center;
+.feature {
+	  background: #81b3d2;
+
 }
 
 .feature, .addition {
-  max-width: 316px;
-  min-width: 316px;
+	
+	text-align:center;
   vertical-align: top;
-  padding: 50px 3.5%;
+  padding: 43px 45px;
   padding-top: 30px;
 }
-.feature-title-1 {
-  max-width: 180px;
-  font-family: "PT Sans";
-  margin: 0 auto;
-}
+
 .feature-number {
   padding-bottom: 20px;
   padding-top: 10px;
@@ -231,7 +232,7 @@ a {
 .line-1 {
   max-height: 256px;
   text-align: center;
-  background: #81b3d2;
+
   color: white;
 }
 .line-2 {
@@ -240,7 +241,7 @@ a {
 
 
 
-.title-text {
+.title {
   font-size: 21px;
   line-height: 21px;
   padding: 15px 0;
