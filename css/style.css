@@ -1,7 +1,15 @@
 body{
 	margin:0;
+	padding: 0;
 	font-family: "PT Sans";
 	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #f2f2f2;
+	  background-position: top center;
 
 }
 
@@ -122,6 +130,10 @@ a {
   background: url("../img/icon-3.svg") no-repeat center top;
 }
 
+.features {
+  text-align: center;
+}
+
 .feature, .addition {
   max-width: 316px;
   min-width: 316px;
@@ -166,8 +178,6 @@ a {
 
 .feature-photo .{
   height: auto;
-  width: 100%;
-  display: block;
 }
 
 .feature-photo img {
@@ -194,6 +204,15 @@ a {
 .addition {
   min-height: 265px;
   display: block;
+}
+
+.addition h2 {
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+.addition-text {
+  padding-top: 46px;
+  padding-bottom: 15px;
 }
 
 .line {
@@ -228,11 +247,12 @@ a {
 }
 
 .main-title {
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 26px;
-  display: block;
-  color: #333333;
+	margin-bottom: 30px;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 26px;
+	display: block;
+	color: #333333;
 }
 
 .under-main-title{
@@ -240,4 +260,15 @@ a {
 	font-weight: 400;
 	line-height: 26px;
 	color: #333333;
+}
+
+.column{
+	display:inline-block;
+	width:33.33%;
+}
+
+.double-column{
+	display:inline-block;
+	width:66.66%;
+	
 }
